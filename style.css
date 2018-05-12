@@ -91,7 +91,7 @@ li a:hover{
   margin:0 auto;
 }
 
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 250px){
   as{
     font-size: 14px;
   }
@@ -122,4 +122,12 @@ li a:hover{
   margin-right: auto;
   width: 20%;
   padding: 30px;
+}
+
+#project{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: inherit;
+  font-size: 12px;
+  max-width: 450px;
+
 }
