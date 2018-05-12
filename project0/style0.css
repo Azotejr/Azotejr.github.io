@@ -21,11 +21,11 @@ a:hover{
 }
 
 @media only screen and (max-width: 500px){
-  #projcet{
-    width: device-width;
-  }
-  #pic{
-    width: device-width;
-  }
-  }
+    #projcet{
+      width: 400px;
+    }
+    #pic{
+      width: 100%;
+      height: auto;
+    }
 }
