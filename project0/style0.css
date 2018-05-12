@@ -20,8 +20,12 @@ a:hover{
   text-decoration:none;
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width: 500px){
   #projcet{
-    max-width: 100%;
+    width: device-width;
+  }
+  #pic{
+    width: device-width;
+  }
   }
 }
