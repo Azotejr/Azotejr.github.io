@@ -19,3 +19,9 @@ a:hover{
   color:rgb(199,212,87);
   text-decoration:none;
 }
+
+@media only screen and (max-width:500px){
+  #projcet{
+    max-width: 100%;
+  }
+}
