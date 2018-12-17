@@ -1,133 +1,13 @@
-/*the opening page*/
-.hello{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom;
-  width: 30%;
-}
-
-#hello{
-  background-color: #ffd1ff;
-  animation: hello 6s infinite;
-}
-
-@keyframes hello{
-  0%{background-color:#ffd1ff;}
-  25%{background-color:#fad0c4;}
-  75%{background-color:#a18cd1;}
-  100%{background-color:#ffd1ff;}
-}
-
-#title{
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  color: #2d2d2d;
-  margin-top: 30px;
-  /*I copied these codes to make the title sticky*/
-  position: -webkit-sticky; /* for Safari */
-  position: sticky;
-  top: 0px;
-  /*I copied these codes to make the title sticky*/
-  height:50px;
-  background-color: white;
-  animation: title 6s infinite;
-}
-
-body{
-  font-family: 'Raleway', sans-serif;
-  font-weight: lighter;
-  color:#2d2d2d;
-}
-
-#contact{
-  margin-top: 5px;
-}
-
-/*navigation part*/
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  margin-top: -15px;
-  overflow: hidden;
-  text-align: center;
-}
-
-li{
-  display: inline;
-}
-
-li a {
+a {
   color: #2d2d2d;
   text-decoration: none;
   padding-left: 10px;
   padding-right:10px;
 }
 
-li a:hover{
+a:hover{
   color: #a18cd1;
   text-decoration: underline;
   text-decoration-style: solid;
   transition-duration: 0.75s;
-}
-
-/*artist statement*/
-.as{
-  margin-top: 0px;
-  text-align: left;
-  font-family: 'Raleway', sans-serif;
-  font-weight: lighter;
-  padding: 30px;
-  letter-spacing: 0.75px;
-  word-spacing: 2px;
-  line-height: 1.4;
-/*copied from Prototypr for best view on different devices*/
-  width:32em;
-  font-size: 16px;
-  max-width: 100%;
-  margin:0 auto;
-}
-
-@media only screen and (max-width: 250px){
-  as{
-    font-size: 14px;
-  }
-}
-/*copied from Prototypr for best view on different devices*/
-
-/*gallery for photos and designs*/
-.gallery {
-  width: 100%;
-  padding: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-
-@keyframes title{
-  0%{color:#ffd1ff;}
-  25%{color:#fad0c4;}
-  75%{color:#a18cd1;}
-  100%{color:#ffd1ff;}
-}
-
-/*signature at the bottom*/
-.sign{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-  padding: 30px;
-}
-
-#project{
-  font-family: 'Alegreya Sans', sans-serif;
-  font-weight: inherit;
-  font-size: 12px;
-  max-width: 450px;
-
 }
